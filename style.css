@@ -1,0 +1,104 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Amatic SC', cursive;
+  background: url(walkies.body.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  color: #e2dbdb;
+  font-size: 3rem;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.main-nav {
+    display: flex;
+    font-size: 0.7em;
+    margin: 0;
+    height: 6rem;
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    transition: all 0.3s linear;
+    background-color: #444;
+}
+
+.main-nav:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+.buffer {
+  height: 10rem;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 1em;
+  border-radius: 300px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  height: 5rem;
+}
+
+.btn-primary {
+  background-color: rgb(50, 32, 42);
+  border-color: rgb(50, 32, 42);
+}
+
+.btn-primary:hover {
+  background-color: rgb(123, 72, 101);
+  border-color: rgb(123, 72, 101);
+  border-width: 4px;
+}
+.btn-xl { 
+  padding: 1rem 2rem;
+}
+
+.container {
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+.box {
+    padding: 30px;
+    margin: 20px;
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box > img {
+    width: 100%;
+}
+footer {
+  background-color: rgb(254, 202, 231);
+}
